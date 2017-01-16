@@ -1,0 +1,74 @@
+<include file="Public/header" />
+</head>
+<body>
+    <div class="wrap js-check-wrap">
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="{:U('User/index')}">{:L('ADMIN_USER_MANAGE')}</a></li>
+            <li><a href="{:U('User/add')}">{:L('ADMIN_USER_ADD')}</a></li>
+        </ul>
+        
+        <form class="well form-search" method="get" action="{:U('User/index')}">
+            {:L('USERNAME')}： 
+            <input type="text" name="user_login" style="width: 100px;" value="{$formget.user_login}" placeholder="{:L('ENTER_USERNAME')}">
+            &nbsp;&nbsp;
+            {:L('EMAIL')}： 
+            <input type="text" name="user_email" style="width: 100px;" value="{$formget.user_email}" placeholder="{:L('ENTER_EMAIL')}">
+            <input type="submit" class="btn btn-primary" value="{:L('SEARCH')}" />
+            <a  href="{:U('User/index')}" class="btn btn-danger" >{:L('CLEAR')}</a>
+        </form>
+        
+        <table class="table table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th width="50">ID</th>
+                    <th>{:L('USERNAME')}</th>
+                    <th>{:L('LAST_LOGIN_IP')}</th>
+                    <th>{:L('LAST_LOGIN_TIME')}</th>
+                    <th>{:L('EMAIL')}</th>
+                    <th>{:L('STATUS')}</th>
+                    <th width="120">{:L('ACTIONS')}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <php>$user_status=array("0"=>L('USER_STATUS_BLOCKED'),"1"=>L('USER_STATUS_ACTIVATED'),"2"=>L('USER_STATUS_UNVERIFIED'));</php>
+                <foreach name="users" item="vo">
+                <tr>
+                    <td>{$vo.id}</td>
+                    <td>{$vo.user_login}</td>
+                    <td>{$vo.last_login_ip}</td>
+                    <td>
+                        <if condition="$vo['last_login_time'] eq 0">
+                            {:L('USER_HAVENOT_LOGIN')}
+                        <else />
+                            {$vo.last_login_time}
+                        </if>
+                    </td>
+                    <td>{$vo.user_email}</td>
+                    <td>{$user_status[$vo['user_status']]}</td>
+                    <td>
+                        <if condition="$vo['id'] eq 1">
+                        <font color="#cccccc">{:L('EDIT')}</font> | <font color="#cccccc">{:L('DELETE')}</font> |
+                            <if condition="$vo['user_status'] eq 1">
+                                    <font color="#cccccc">{:L('BLOCK_USER')}</font>
+                            <else />
+                                    <font color="#cccccc">{:L('ACTIVATE_USER')}</font>
+                            </if>
+                        <else />
+                            <a href='{:U("user/edit",array("id"=>$vo["id"]))}'>{:L('EDIT')}</a> | 
+                            <a class="js-ajax-delete" href="{:U('user/delete',array('id'=>$vo['id']))}">{:L('DELETE')}</a> | 
+                            <if condition="$vo['user_status'] eq 1">
+                                <a href="{:U('user/ban',array('id'=>$vo['id']))}" class="js-ajax-dialog-btn" data-msg="{:L('BLOCK_USER_CONFIRM_MESSAGE')}">{:L('BLOCK_USER')}</a>
+                            <else />
+                                <a href="{:U('user/open',array('id'=>$vo['id']))}" class="js-ajax-dialog-btn" data-msg="{:L('ACTIVATE_USER_CONFIRM_MESSAGE')}">{:L('ACTIVATE_USER')}</a>
+                            </if>
+                        </if>
+                    </td>
+                </tr>
+                </foreach>
+            </tbody>
+        </table>
+        {$_Page}
+    </div>
+<script src="__STATIC__/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<include file = "Public/header" />
+</header>
+<body>
+    <div class="wrap">
+        <ul class="nav nav-tabs">
+            <volist name="Think.config.CONFIG_GROUP_LIST" id="group">
+                <php> $group_selected=$groupId==$key?'active':'';</php>
+                <li class="{$group_selected}"><a href="{:U('Config/group',array('groupId'=>$key))}">{$group}配置</a></li>
+            </volist>
+        </ul>
+        <form class="form-horizontal js-ajax-forms" action="{:U('Config/save')}" method="post">
+            <fieldset>
+                <volist name="list" id="config">
+                    <div class="control-group">
+                        <label class="control-label">
+                            {$config.title}
+                        </label>
+                        
+                        <div class="controls">
+                            <switch name="config.type">
+                                <case value="0">
+                                    <input type="text" class="input-small" name="config[{$config.name}]" value="{$config.value}">
+                                </case>
+                                <case value="1">
+                                    <input type="text" class="input-large" name="config[{$config.name}]" value="{$config.value}">
+                                </case>
+                                <case value="2">
+                                    <textarea name="config[{$config.name}]" rows="3">{$config.value}</textarea>
+                                </case>
+                                <case value="3">
+                                    <textarea name="config[{$config.name}]" rows="3" cols="60">{$config.value}</textarea>
+                                </case>
+                                <case value="4">
+                                    <select name="config[{$config.name}]">
+                                        <volist name=":parse_config_attr($config['extra'])" id="vo">
+                                            <option value="{$key}" <eq name="config.value" value="$key">selected</eq>>{$vo}</option>
+                                        </volist>
+                                    </select>
+                                </case>
+                            </switch>
+                            
+                            <notempty name="config.remark">
+                                <span class="help-block"><small>{$config.remark}</small></span>
+                            </notempty>    
+                        </div>
+                    </div>
+                </volist>
+                
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-primary  js-ajax-submit">{:L("SAVE")}</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>    
+</body>

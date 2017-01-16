@@ -1,0 +1,62 @@
+<include file = "Public/header" />
+</head>
+<body>
+    <div class="wrap js-check-wrap">
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="{:U('Config/index')}">{:L('WEBSITE_CONFIG_MANAGE')}</a></li>
+            <li><a href="{:U('Config/add')}">{:L('WEBSITE_CONFIG_ADD')}</a></li>
+        </ul>
+        
+        <form class="well form-search" method="get" action="{:U('Config/index')}">
+            {:L('CATEGORY')}： 
+            <select class="select_2" name="group">
+                <option value='0'>{:L('ALL')}</option>
+                <volist name="Think.config.CONFIG_GROUP_LIST" id="group">
+                    <option value="{$key}" <equal name="key" value="{formget['group']}">selected</equal>>{$group}{:L('SETTING')}</option> 
+                </volist>
+            </select> 
+            &nbsp;&nbsp;
+            {:L('KEYWORD')}： 
+            <input type="text" name="keywords" style="width: 200px;" value="{$formget.keywords}" placeholder="{:L('ENTER_KEYWORD')}">
+            <input type="submit" class="btn btn-primary" value="{:L('SEARCH')}" />
+        </form>
+        
+        <form method="post" class="js-ajax-form">
+            <div class="table-actions">
+                <button class="btn btn-primary btn-small js-ajax-submit" type="submit" data-action="{:U('Config/sort')}">{:L('SORT')}</button>   
+            </div>
+            <table class="table table-hover table-bordered table-list">
+                <thead>
+                    <tr>
+                        <th width="50">{:L('SORT')}</th>
+                        <th width="50">ID</th>
+                        <th>{:L('NAME')}</th>
+                        <th>{:L('TITLE')}</th>
+                        <th width="80">{:L('GROUP')}</th>
+                        <th width="80">{:L('TYPE')}</th>
+                        <th width="150">{:L('ACTIONS')}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <foreach name="lists" item="config">
+                        <tr>
+                            <td><input name="listorders[{$config.id}]" type='text' size='3' value='{$config.sort}' class='input input-order'></td>
+                            <td>{$config.id}</td>
+                            <td>{$config.name}</td>
+                            <td>{$config.title}</td>
+                            <td>{$config.group|get_config_group}</td>
+                            <td>{$config.type|get_config_type}</td>
+                            <td>
+                                <a href="{:U('Config/edit',array('id'=>$config['id']))}">{:L('EDIT')}</a> |
+				<a href="{:U('config/delete',array('id'=>$config['id']))}" class="js-ajax-delete">{:L('DELETE')}</a>
+                            </td>
+                        </tr>
+                    </foreach>
+                </tbody>    
+            </table>
+            {$_Page}
+        </form>    
+    </div>  
+<script src="__STATIC__/common.js"></script>
+</body>
+</html>

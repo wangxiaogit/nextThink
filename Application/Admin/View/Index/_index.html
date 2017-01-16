@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>|ThinkAir后台框架</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="__IMG__/favicon.ico" type="image/x-icon" rel="shortcut icon">
+    <link rel="stylesheet" href="__STATIC__/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__STATIC__/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="__THEME__/default/default.css">
+    <!--[if IE 7]>
+            <link rel="stylesheet" href="__STATIC__/css/font-awesome-ie7.min.css">
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+            <script src="__STATIC__/html5shiv.js"></script>
+            <script src="__STATIC__/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- 导航栏 -->
+<!--{:hook('showTest')}-->
+<div class="navbar navbar-default nav-fixed-top" style="margin-bottom: 0;">
+	<div class="container">
+		<div class="navbar-header">
+			<a href="#" class="navbar-brand" style="padding:0px;">
+				<img src="__IMG__/logo.png" alt="thinkAir" style="height:50px;">
+			</a>   
+			<button type="button" class="navbar-toggle"  data-toggle="collapse" data-target="#navbar-collapse"> 
+				<i class="icon-reorder"></i>
+			</button>
+			
+		</div>
+		
+		<div class="collapse navbar-collapse"  id="navbar-collapse">
+			<ul class="nav navbar-nav navbar-left">
+				<li class="active"><a href="">首页 </a></li>
+				<li><a href="">咨询</a></li>
+				<li><a href="">案例</a></li>
+				<li><a href="">关于</a></li>
+			</ul>
+
+			<ul class="nav navbar-nav navbar-right" style="margin-top: 0px">
+				<li>
+					<a href="javascript:void(0)">
+						<i class="icon-envelope-alt"></i> 留言 
+						<span class="badge badge-warning" style="vertical-align:top;">6</span>
+					</a>
+				</li>
+				<li class="dropdown">
+					<a  href="javascript:void(0)" class="dropdown-toggle" style="padding-top: 5px;padding-bottom:5px;" data-toggle="dropdown" >
+						<img class="img-circle" src="__IMG__/user.png" style="height:40px;padding:0px;" alt="Thomas"> 
+			    		Thomas
+			    		<span class="caret"></span>
+					</a>
+
+					<ul class="dropdown-menu">
+						<li>
+							<a href="#">个人中心</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a href="#">修改密码</a>
+						</li>
+						<li class="divider"></li>
+						<li>
+							<a  href="javascript:void(0);">退出</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+		</div>
+	</div>
+</div> 
+
+	<!-- 侧边栏 -->
+	<div class="aside-menu">
+		<div class="menu_dropdown">
+			<dl>
+				<dt>
+					<i class="icon-list-alt"></i> 资讯管理<i class="glyphicon glyphicon-menu-down menu_dropdown-arrow"></i>
+				</dt>
+				<dd>
+					<ul>
+						<li><a _href="article-list.html" data-title="资讯管理" href="javascript:void(0)">资讯管理</a></li>
+					</ul>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<i class="icon-picture"></i> 图片管理<i class="glyphicon glyphicon-menu-down menu_dropdown-arrow"></i>
+				</dt>
+				<dd>
+					<ul>
+						<li><a _href="picture-list.html" data-title="图片管理" href="javascript:void(0)">图片管理</a></li>
+					</ul>
+				</dd>
+			</dl>
+		</div>
+	</div>
+	<!-- 切换菜单按钮 -->
+	<div class="dislpayArrow"><a class="pngfix" href="javascript:void(0);" onClick="displayAsideMenu(this)"></a></div>
+	<!-- 主后面 -->
+	<section class="main-container">
+		<div id="tabNav" class="tabNav">
+			<div class="tabNav-wp">
+				<ul id="min_title_list" class="nav acrossTab">
+					<li><span title="我的桌面" data-href="welcome.html">我的桌面</span><em></em></li>
+				</ul>
+			</div>
+			<div class="tabNav-more btn-group">
+				<a id="js-tabNav-prev" class="btn btn-default btn-xs" href="javascript:;"><i class="icon-arrow-left"></i></a>
+				<a id="js-tabNav-next" class="btn btn-default btn-xs" href="javascript:;"><i class="icon-arrow-right"></i></a>
+			</div>
+		</div>
+		<div id="iframe_box" class="iframe_box">
+			<div class="show_iframe">
+				<div style="display:none" class="loading"></div>
+				<iframe scrolling="yes" frameborder="0" src="{:U('Config/index')}"></iframe>
+			</div>
+		</div>
+	</section>
+
+
+<script src="__STATIC__/jquery-1.10.2.min.js"></script>	
+<script src="__STATIC__/bootstrap/js/bootstrap.min.js"></script>	
+<script src="__JS__/common.js"></script>
+</body>
+</html>

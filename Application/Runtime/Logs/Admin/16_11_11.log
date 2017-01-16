@@ -1,0 +1,1470 @@
+[ 2016-11-11T09:24:00+08:00 ] ::1 /nexTthink1/index.php/Menu/import
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1048:Column 'parentid' cannot be null
+ [ SQL语句 ] : INSERT INTO `think_menu` (`parentid`,`app`,`model`,`action`,`type`,`status`,`name`,`listorder`) VALUES (NULL,'Admin','Config','group','1','0','未定义','0')
+
+[ 2016-11-11T09:29:11+08:00 ] ::1 /nexTthink1/index.php/Menu/import
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T09:32:24+08:00 ] ::1 /nexTthink1/index.php/Menu/import
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T09:37:37+08:00 ] ::1 /nexTthink1/index.php/Menu/import
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T09:38:48+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T09:38:49+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T09:38:49+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T09:40:11+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T09:40:11+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T09:40:11+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T09:41:01+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T09:41:01+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T09:41:01+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T09:41:13+08:00 ] ::1 /nexTthink1/index.php/Config/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T09:41:47+08:00 ] ::1 /nexTthink1/index.php/Config/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-11T09:41:49+08:00 ] ::1 /nexTthink1/index.php/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T09:41:51+08:00 ] ::1 /nexTthink1/index.php/Config/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T09:41:53+08:00 ] ::1 /nexTthink1/index.php/Config/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T09:42:03+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T10:56:01+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'default' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( parentid = 0 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('0','菜单管理','Admin','Menu','default','','fa-list','','1','0') [ RunTime:0.0130s ]
+
+[ 2016-11-11T10:56:02+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T10:56:02+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T10:56:02+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T10:56:09+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T10:56:41+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2016-11-11T10:57:10+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( parentid = 162 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('162','后台菜单','Admin','Menu','index','','','','1','1') [ RunTime:0.0000s ]
+
+[ 2016-11-11T10:57:10+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T10:57:11+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T10:57:11+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:00:24+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:00:25+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:00:25+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:00:36+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:03:39+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0150s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'add' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( parentid = 163 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('163','添加菜单','Admin','Menu','add','','','','1','1') [ RunTime:0.0000s ]
+
+[ 2016-11-11T11:03:39+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:03:40+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:03:40+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:03:49+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:04:28+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'Edit' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( parentid = 163 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( parentid = 163 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( parentid = 163 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-11T11:04:41+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:04:42+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-11T11:04:42+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:19:01+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'Edit' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-11-11T11:19:18+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:19:23+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:19:24+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:20:02+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'edit' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( parentid = 163 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( parentid = 163 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-11T11:21:22+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:21:27+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:22:08+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'Edit' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( parentid = 163 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: parentID D:\phpStudy\WWW\nexTthink1\Application\Common\Model\MenuModel.class.php 第 57 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `parentid` FROM `think_menu` WHERE ( parentid =  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `parentid` FROM `think_menu` WHERE ( parentid =  ) LIMIT 1  
+
+[ 2016-11-11T11:23:35+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:23:48+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'Edit' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( parentid = 163 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( parentid = 163 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( parentid = 163 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-11T11:25:02+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'Edit' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( parentid = 163 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( parentid = 163 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-11T11:25:55+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:26:06+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'Edit' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( parentid = 163 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-11T11:26:55+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:27:10+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'Edit' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( parentid = 163 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-11T11:28:10+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:28:24+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'edit' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 163 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 162 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('163','编辑菜单','Admin','Menu','edit','','','','1','1') [ RunTime:0.0000s ]
+
+[ 2016-11-11T11:28:24+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-11T11:28:24+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:28:24+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:28:30+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:30:28+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'delete' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('0','删除菜单','Admin','Menu','delete','','','','1','1') [ RunTime:0.0000s ]
+
+[ 2016-11-11T11:30:28+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:30:29+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:30:29+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:30:41+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:30:53+08:00 ] ::1 /nexTthink1/index.php/Menu/edit/id/166
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:31:06+08:00 ] ::1 /nexTthink1/index.php/Menu/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'delete' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `think_menu` SET `parentid`='162',`name`='删除菜单',`app`='Admin',`model`='Menu',`action`='delete',`data`='',`icon`='',`remark`='',`status`='1',`type`='1' WHERE `id` = 166 [ RunTime:0.1770s ]
+
+[ 2016-11-11T11:31:06+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:31:06+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:31:06+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:31:49+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:31:50+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:31:50+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:32:00+08:00 ] ::1 /nexTthink1/index.php/Menu/edit/id/166
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:32:08+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:32:09+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:32:09+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:32:22+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-11T11:32:59+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'sort' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 162 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('162','菜单排序','Admin','Menu','sort','','','','1','1') [ RunTime:0.0000s ]
+
+[ 2016-11-11T11:32:59+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:33:00+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:33:00+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:33:17+08:00 ] ::1 /nexTthink1/index.php/Menu/edit/id/166
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:33:24+08:00 ] ::1 /nexTthink1/index.php/Menu/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'delete' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `think_menu` SET `parentid`='163',`name`='删除菜单',`app`='Admin',`model`='Menu',`action`='delete',`data`='',`icon`='',`remark`='',`status`='1',`type`='1' WHERE `id` = 166 [ RunTime:0.0010s ]
+
+[ 2016-11-11T11:33:24+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:33:25+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:33:25+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:33:27+08:00 ] ::1 /nexTthink1/index.php/Menu/edit/id/167
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:33:31+08:00 ] ::1 /nexTthink1/index.php/Menu/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'sort' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `think_menu` SET `parentid`='163',`name`='菜单排序',`app`='Admin',`model`='Menu',`action`='sort',`data`='',`icon`='',`remark`='',`status`='1',`type`='1' WHERE `id` = 167 [ RunTime:0.0010s ]
+
+[ 2016-11-11T11:33:31+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:33:32+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:33:32+08:00 ] ::1 /nexTthink1/index.php/Menu/treeTable
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:35:09+08:00 ] ::1 /nexTthink1/index.php/Menu/add/parentid/162
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:35:17+08:00 ] ::1 /nexTthink1/index.php/Menu/add/parentid/163
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:37:27+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:40:05+08:00 ] ::1 /nexTthink1/index.php/Menu/edit/id/162
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-11T11:41:57+08:00 ] ::1 /nexTthink1/index.php/Config/sort
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0060s ]
+SQL: UPDATE `think_config` SET `sort`='0' WHERE `id` = 162 [ RunTime:0.0000s ]
+SQL: UPDATE `think_config` SET `sort`='0' WHERE `id` = 163 [ RunTime:0.0000s ]
+SQL: UPDATE `think_config` SET `sort`='100' WHERE `id` = 164 [ RunTime:0.0000s ]
+SQL: UPDATE `think_config` SET `sort`='0' WHERE `id` = 165 [ RunTime:0.0000s ]
+SQL: UPDATE `think_config` SET `sort`='0' WHERE `id` = 166 [ RunTime:0.0000s ]
+SQL: UPDATE `think_config` SET `sort`='0' WHERE `id` = 167 [ RunTime:0.0000s ]
+
+[ 2016-11-11T11:41:57+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T11:44:36+08:00 ] ::1 /nexTthink1/index.php/Config/sort
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+
+[ 2016-11-11T11:45:09+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:45:17+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:45:34+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T11:45:52+08:00 ] ::1 /nexTthink1/index.php/Config/sort
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0060s ]
+SQL: UPDATE `think_config` SET `sort`='0' WHERE `id` = 162 [ RunTime:0.0000s ]
+SQL: UPDATE `think_config` SET `sort`='0' WHERE `id` = 163 [ RunTime:0.0000s ]
+SQL: UPDATE `think_config` SET `sort`='0' WHERE `id` = 164 [ RunTime:0.0000s ]
+SQL: UPDATE `think_config` SET `sort`='0' WHERE `id` = 165 [ RunTime:0.0000s ]
+SQL: UPDATE `think_config` SET `sort`='0' WHERE `id` = 166 [ RunTime:0.0010s ]
+SQL: UPDATE `think_config` SET `sort`='0' WHERE `id` = 167 [ RunTime:0.0000s ]
+
+[ 2016-11-11T11:45:52+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T13:47:59+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T13:48:31+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T13:49:00+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Config' AND `action` = 'defa' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 0 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('0','设置管理','Admin','Config','defa','','','','1','1') [ RunTime:0.0000s ]
+
+[ 2016-11-11T13:49:00+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T13:49:07+08:00 ] ::1 /nexTthink1/index.php/Menu/edit/id/168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T13:49:28+08:00 ] ::1 /nexTthink1/index.php/Menu/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Config' AND `action` = 'default' LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `think_menu` SET `parentid`='0',`name`='设置管理',`app`='Admin',`model`='Config',`action`='default',`data`='',`icon`='',`remark`='',`status`='1',`type`='0' WHERE `id` = 168 [ RunTime:0.0000s ]
+
+[ 2016-11-11T13:49:28+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T13:50:19+08:00 ] ::1 /nexTthink1/index.php/Menu/edit/id/168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T13:50:30+08:00 ] ::1 /nexTthink1/index.php/Menu/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Config' AND `action` = 'default' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `think_menu` SET `parentid`='0',`name`='设置',`app`='Admin',`model`='Config',`action`='default',`data`='',`icon`='',`remark`='',`status`='1',`type`='0' WHERE `id` = 168 [ RunTime:0.0000s ]
+
+[ 2016-11-11T13:50:30+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T13:51:23+08:00 ] ::1 /nexTthink1/index.php/Menu/add/parentid/168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T13:51:58+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T13:52:01+08:00 ] ::1 /nexTthink1/index.php/Menu/add/parentid/168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T13:52:07+08:00 ] ::1 /nexTthink1/index.php/Menu/edit/id/168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T13:52:34+08:00 ] ::1 /nexTthink1/index.php/Menu/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Config' AND `action` = 'default' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `think_menu` SET `parentid`='0',`name`='配置管理',`app`='Admin',`model`='Config',`action`='default',`data`='',`icon`='',`remark`='',`status`='1',`type`='0' WHERE `id` = 168 [ RunTime:0.0010s ]
+
+[ 2016-11-11T13:52:34+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T13:52:37+08:00 ] ::1 /nexTthink1/index.php/Menu/add/parentid/168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T13:53:07+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Config' AND `model` = 'add' AND `action` = '添加配置' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 168 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('168','Admin','Config','add','添加配置','','','','1','1') [ RunTime:0.0000s ]
+
+[ 2016-11-11T13:53:08+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T13:53:13+08:00 ] ::1 /nexTthink1/index.php/Menu/edit/id/168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-11-11T13:53:19+08:00 ] ::1 /nexTthink1/index.php/Menu/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Config' AND `action` = 'index' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `think_menu` SET `parentid`='0',`name`='配置管理',`app`='Admin',`model`='Config',`action`='index',`data`='',`icon`='',`remark`='',`status`='1',`type`='0' WHERE `id` = 168 [ RunTime:0.0000s ]
+
+[ 2016-11-11T13:53:19+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T13:53:27+08:00 ] ::1 /nexTthink1/index.php/Menu/edit/id/168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T13:53:35+08:00 ] ::1 /nexTthink1/index.php/Menu/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Config' AND `action` = 'index' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `think_menu` SET `parentid`='0',`name`='配置管理',`app`='Admin',`model`='Config',`action`='index',`data`='',`icon`='',`remark`='',`status`='1',`type`='1' WHERE `id` = 168 [ RunTime:0.0000s ]
+
+[ 2016-11-11T13:53:35+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T13:54:20+08:00 ] ::1 /nexTthink1/index.php/Menu/add/parentid/168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T13:54:54+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Config' AND `action` = 'edit' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 168 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('168','编辑配置','Admin','Config','edit','','','','1','1') [ RunTime:0.0000s ]
+
+[ 2016-11-11T13:54:55+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T13:55:07+08:00 ] ::1 /nexTthink1/index.php/Menu/edit/id/169
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T13:55:27+08:00 ] ::1 /nexTthink1/index.php/Menu/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Config' AND `action` = 'add' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `think_menu` SET `parentid`='168',`name`='添加配置',`app`='Admin',`model`='Config',`action`='add',`data`='',`icon`='',`remark`='',`status`='1',`type`='1' WHERE `id` = 169 [ RunTime:0.0020s ]
+
+[ 2016-11-11T13:55:27+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T13:55:33+08:00 ] ::1 /nexTthink1/index.php/Menu/add/parentid/168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T13:56:22+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Config' AND `action` = 'delete' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 168 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('168','删除配置','Admin','Config','delete','','','','1','1') [ RunTime:0.0000s ]
+
+[ 2016-11-11T13:56:22+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T13:56:25+08:00 ] ::1 /nexTthink1/index.php/Menu/add/parentid/168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T13:57:04+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Config' AND `action` = 'sort' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 168 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('168','配置排序','Admin','Config','sort','','','','1','1') [ RunTime:0.0010s ]
+
+[ 2016-11-11T13:57:04+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T13:57:29+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T13:58:40+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Setting' AND `action` = 'default' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('0','设置','Admin','Setting','default','','','','1','0') [ RunTime:0.0000s ]
+
+[ 2016-11-11T13:58:40+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T13:58:48+08:00 ] ::1 /nexTthink1/index.php/Menu/add/parentid/173
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T13:59:31+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Config' AND `action` = 'group' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 173 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('173','网站信息','Admin','Config','group','','','','1','1') [ RunTime:0.0000s ]
+
+[ 2016-11-11T13:59:31+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T14:07:39+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T14:15:38+08:00 ] ::1 /nexTthink1/index.php/Menu/add/parentid/164
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T14:16:25+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'do_add' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 164 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 163 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 162 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('164','提交添加','Admin','Menu','do_add','','','','1','1') [ RunTime:0.0010s ]
+
+[ 2016-11-11T14:16:25+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T14:16:35+08:00 ] ::1 /nexTthink1/index.php/Menu/add/parentid/165
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T14:16:57+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Config' AND `action` = 'do_edit' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 165 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 163 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 162 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('165','提交编辑','Admin','Config','do_edit','','','','1','1') [ RunTime:0.0000s ]
+
+[ 2016-11-11T14:16:57+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-11T14:17:03+08:00 ] ::1 /nexTthink1/index.php/Menu/add/parentid/169
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T14:17:46+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2016-11-11T14:17:56+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Config' AND `action` = 'do_add' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 169 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 168 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('169','提交添加','Admin','Config','do_add','','','','1','1') [ RunTime:0.0010s ]
+
+[ 2016-11-11T14:17:56+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T14:18:05+08:00 ] ::1 /nexTthink1/index.php/Menu/add/parentid/170
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T14:18:33+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Config' AND `action` = 'do_edit' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-11T14:18:43+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T14:19:02+08:00 ] ::1 /nexTthink1/index.php/Menu/edit/id/176
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T14:19:09+08:00 ] ::1 /nexTthink1/index.php/Menu/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Menu' AND `action` = 'do_edit' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `think_menu` SET `parentid`='165',`name`='提交编辑',`app`='Admin',`model`='Menu',`action`='do_edit',`data`='',`icon`='',`remark`='',`status`='1',`type`='1' WHERE `id` = 176 [ RunTime:0.0000s ]
+
+[ 2016-11-11T14:19:09+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T14:19:15+08:00 ] ::1 /nexTthink1/index.php/Menu/add/parentid/170
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T14:19:43+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_menu` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `think_menu` WHERE `app` = 'Admin' AND `model` = 'Config' AND `action` = 'do_edit' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 170 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `parentid` FROM `think_menu` WHERE ( id = 168 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `think_menu` (`parentid`,`name`,`app`,`model`,`action`,`data`,`icon`,`remark`,`status`,`type`) VALUES ('170','提交编辑','Admin','Config','do_edit','','','','1','1') [ RunTime:0.0010s ]
+
+[ 2016-11-11T14:19:44+08:00 ] ::1 /nexTthink1/index.php/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T15:47:59+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Rbac
+
+[ 2016-11-11T15:48:35+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Rbac
+
+[ 2016-11-11T15:50:58+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Rbac
+
+[ 2016-11-11T15:52:21+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Rbac
+
+[ 2016-11-11T15:52:22+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Rbac
+
+[ 2016-11-11T15:56:07+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Rbac
+
+[ 2016-11-11T15:56:32+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T15:58:34+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T15:58:41+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Rbac
+
+[ 2016-11-11T16:00:21+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Rbac
+
+[ 2016-11-11T16:00:23+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Rbac
+
+[ 2016-11-11T16:00:23+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Rbac
+
+[ 2016-11-11T16:00:24+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Rbac
+
+[ 2016-11-11T16:00:24+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Rbac
+
+[ 2016-11-11T16:00:24+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Rbac
+
+[ 2016-11-11T16:00:24+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Rbac
+
+[ 2016-11-11T16:07:19+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Rbac
+
+[ 2016-11-11T16:07:26+08:00 ] ::1 /nexTthink1/index.php/Menu/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T16:07:36+08:00 ] ::1 /nexTthink1/index.php/Config/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T16:09:04+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Rbac
+
+[ 2016-11-11T16:09:49+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Rbac
+
+[ 2016-11-11T16:09:53+08:00 ] ::1 /nexTthink1/index.php/role/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Role
+
+[ 2016-11-11T16:10:03+08:00 ] ::1 /nexTthink1/index.php/Role/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Role
+
+[ 2016-11-11T16:11:58+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T16:14:16+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T16:26:11+08:00 ] ::1 /nexTthink1/index.php/Rbac/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'id DESC LIMIT 0,10' at line 1
+ [ SQL语句 ] : SELECT `id`,`name`,`status`,`remark`,`create_time`,`update_time`,`listorder` FROM `think_role` WHERE `status` >= 0 ORDER BY listorder ASC id DESC LIMIT 0,10  
+
+[ 2016-11-11T16:26:36+08:00 ] ::1 /nexTthink1/index.php/Rbac/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-11T16:26:36+08:00 ] ::1 /nexTthink1/Public/js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T16:36:03+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T16:36:07+08:00 ] ::1 /nexTthink1/index.php/Rbac/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T16:36:08+08:00 ] ::1 /nexTthink1/Public/js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T16:36:09+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T16:36:13+08:00 ] ::1 /nexTthink1/index.php/Rbac/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T16:36:13+08:00 ] ::1 /nexTthink1/Public/js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T16:48:01+08:00 ] ::1 /nexTthink1/index.php/Rbac/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T16:48:01+08:00 ] ::1 /nexTthink1/Public/js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-11T17:29:15+08:00 ] ::1 /nexTthink1/index.php/Rbac/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T17:29:19+08:00 ] ::1 /nexTthink1/index.php/Rbac/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T17:29:19+08:00 ] ::1 /nexTthink1/Public/js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-11T17:30:19+08:00 ] ::1 /nexTthink1/index.php/Rbac/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T17:30:19+08:00 ] ::1 /nexTthink1/Public/js/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-11T17:30:22+08:00 ] ::1 /nexTthink1/index.php/Rbac/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+

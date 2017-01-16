@@ -1,0 +1,2111 @@
+[ 2016-11-02T18:43:15+08:00 ] ::1 /nexTthink1/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T18:45:52+08:00 ] ::1 /nexTthink1/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T18:47:25+08:00 ] ::1 /nexTthink1/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+
+[ 2016-11-02T18:47:35+08:00 ] ::1 /nexTthink1/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Admin D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 188 行.
+NOTIC: [8] Undefined variable: pList D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 230 行.
+NOTIC: [8] Undefined variable: pListStart D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pListEnd D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pFirst D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pPrev D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nexTthink1\Application\Common\Controller\AdminController.class.php 第 133 行.
+NOTIC: [8] Trying to get property of non-object D:\phpStudy\WWW\nexTthink1\Application\Common\Controller\AdminController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nexTthink1\Application\Common\Controller\AdminController.class.php 第 133 行.
+NOTIC: [8] Trying to get property of non-object D:\phpStudy\WWW\nexTthink1\Application\Common\Controller\AdminController.class.php 第 133 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT ,  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT ,  
+
+[ 2016-11-02T18:49:58+08:00 ] ::1 /nexTthink1/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Admin D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 188 行.
+NOTIC: [8] Undefined variable: pList D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 230 行.
+NOTIC: [8] Undefined variable: pListStart D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pListEnd D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pFirst D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pPrev D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nexTthink1\Application\Common\Controller\AdminController.class.php 第 133 行.
+NOTIC: [8] Trying to get property of non-object D:\phpStudy\WWW\nexTthink1\Application\Common\Controller\AdminController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: page D:\phpStudy\WWW\nexTthink1\Application\Common\Controller\AdminController.class.php 第 133 行.
+NOTIC: [8] Trying to get property of non-object D:\phpStudy\WWW\nexTthink1\Application\Common\Controller\AdminController.class.php 第 133 行.
+
+[ 2016-11-02T18:50:18+08:00 ] ::1 /nexTthink1/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: Admin D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 188 行.
+NOTIC: [8] Undefined variable: pList D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 230 行.
+NOTIC: [8] Undefined variable: pListStart D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pListEnd D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pFirst D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pPrev D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T18:51:14+08:00 ] ::1 /nexTthink1/Config/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: pList D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 230 行.
+NOTIC: [8] Undefined variable: pListStart D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pListEnd D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pFirst D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pPrev D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-02T18:51:31+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T18:51:33+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: pList D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 230 行.
+NOTIC: [8] Undefined variable: pListStart D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pListEnd D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pFirst D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pPrev D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T18:51:35+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=config&a=edit&id=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_config` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T18:53:33+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: pList D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 230 行.
+NOTIC: [8] Undefined variable: pListStart D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pListEnd D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pFirst D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pPrev D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T18:53:35+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: pList D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 230 行.
+NOTIC: [8] Undefined variable: pListStart D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pListEnd D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pFirst D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pPrev D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T18:53:35+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: pList D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 230 行.
+NOTIC: [8] Undefined variable: pListStart D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pListEnd D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pFirst D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pPrev D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T18:53:37+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: pList D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 230 行.
+NOTIC: [8] Undefined variable: pListStart D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pListEnd D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pFirst D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+NOTIC: [8] Undefined variable: pPrev D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 339 行.
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-02T19:07:25+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-02T19:07:52+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-02T19:08:35+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-02T19:15:38+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-02T19:17:17+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-02T19:18:04+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-02T19:18:59+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-11-02T19:19:00+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-11-02T19:19:06+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: pList D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 232 行.
+NOTIC: [8] Undefined variable: pListStart D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 341 行.
+NOTIC: [8] Undefined variable: pListEnd D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 341 行.
+NOTIC: [8] Undefined variable: pFirst D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 341 行.
+NOTIC: [8] Undefined variable: pPrev D:\phpStudy\WWW\nexTthink1\ThinkPHP\Library\Org\Util\Page.class.php 第 341 行.
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:20:49+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: Page D:\phpStudy\WWW\nexTthink1\Application\Common\Controller\AdminController.class.php 第 133 行.
+NOTIC: [8] Trying to get property of non-object D:\phpStudy\WWW\nexTthink1\Application\Common\Controller\AdminController.class.php 第 133 行.
+NOTIC: [8] Undefined variable: Page D:\phpStudy\WWW\nexTthink1\Application\Common\Controller\AdminController.class.php 第 133 行.
+NOTIC: [8] Trying to get property of non-object D:\phpStudy\WWW\nexTthink1\Application\Common\Controller\AdminController.class.php 第 133 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT ,  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT ,  
+
+[ 2016-11-02T19:21:45+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:22:56+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:24:54+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:25:43+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:26:06+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=config&a=edit&id=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_config` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:26:15+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=config&a=delete&id=36
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: DELETE FROM `think_config` WHERE `id` = 36 [ RunTime:0.0390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:26:16+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:29:16+08:00 ] ::1 /nexTthink1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:29:40+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:29:40+08:00 ] ::1 /nexTthink1/Public/Static/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:35:24+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:35:34+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:35:34+08:00 ] ::1 /nexTthink1/Public/Static/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:37:56+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:37:56+08:00 ] ::1 /nexTthink1/Public/Static/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:39:56+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:40:03+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:40:03+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:40:03+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:40:04+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:40:04+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:40:04+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:40:04+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:40:04+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:40:04+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:40:04+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:40:04+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:40:05+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:40:05+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:40:05+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-02T19:40:05+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:40:05+08:00 ] ::1 /nexTthink1/Public/Static/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:43:17+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:43:17+08:00 ] ::1 /nexTthink1/Public/Static/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:43:18+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:43:18+08:00 ] ::1 /nexTthink1/Public/Static/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:46:05+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:46:05+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:46:06+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:46:06+08:00 ] ::1 /nexTthink1/Public/Static/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:50:12+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:50:12+08:00 ] ::1 /nexTthink1/Public/Static/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:50:35+08:00 ] ::1 /nexTthink1/index.php?g=admin&m=config&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:50:35+08:00 ] ::1 /nexTthink1/Public/Static/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:51:22+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 10,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:51:22+08:00 ] ::1 /nexTthink1/Public/Static/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:51:26+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 20,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:51:27+08:00 ] ::1 /nexTthink1/Public/Static/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:51:29+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 10,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:51:30+08:00 ] ::1 /nexTthink1/Public/Static/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:53:02+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 10,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:53:02+08:00 ] ::1 /nexTthink1/Public/Static/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:53:19+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 10,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:53:19+08:00 ] ::1 /nexTthink1/Public/Static/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:53:43+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 10,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:53:44+08:00 ] ::1 /nexTthink1/Public/Static/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:56:42+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:57:05+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:57:15+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:57:16+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:57:19+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 10,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:57:19+08:00 ] ::1 /nexTthink1/Public/Static/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T19:57:20+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 10,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T19:57:20+08:00 ] ::1 /nexTthink1/Public/Static/jquery-1.10.2.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:01:28+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:01:28+08:00 ] ::1 /nexTthink1/Public/Static/layer/layer.js.js?v=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-02T20:01:29+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:01:30+08:00 ] ::1 /nexTthink1/Public/Static/layer/layer.js.js?v=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:01:37+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 10,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:01:37+08:00 ] ::1 /nexTthink1/Public/Static/layer/layer.js.js?v=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:02:14+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 10,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:02:14+08:00 ] ::1 /nexTthink1/Public/Static/skin/moon/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:02:14+08:00 ] ::1 /nexTthink1/Public/Static/skin/layer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:02:25+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 10,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:02:25+08:00 ] ::1 /nexTthink1/Public/Static/skin/layer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:02:25+08:00 ] ::1 /nexTthink1/Public/Static/skin/moon/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:02:27+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 10,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:02:27+08:00 ] ::1 /nexTthink1/Public/Static/skin/layer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:02:27+08:00 ] ::1 /nexTthink1/Public/Static/skin/moon/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:02:29+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 10,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.056003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.056003s ]
+
+[ 2016-11-02T20:02:30+08:00 ] ::1 /nexTthink1/Public/Static/skin/moon/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:02:30+08:00 ] ::1 /nexTthink1/Public/Static/skin/layer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:02:33+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:02:33+08:00 ] ::1 /nexTthink1/Public/Static/skin/moon/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:02:33+08:00 ] ::1 /nexTthink1/Public/Static/skin/layer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:03:43+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-02T20:03:43+08:00 ] ::1 /nexTthink1/Public/Static/skin/moon/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:03:43+08:00 ] ::1 /nexTthink1/Public/Static/skin/layer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:04:17+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-02T20:04:18+08:00 ] ::1 /nexTthink1/Public/Static/skin/layer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:04:18+08:00 ] ::1 /nexTthink1/Public/Static/skin/moon/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:04:28+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-11-02T20:04:29+08:00 ] ::1 /nexTthink1/Public/Static/skin/layer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:04:29+08:00 ] ::1 /nexTthink1/Public/Static/skin/moon/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:04:39+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:04:40+08:00 ] ::1 /nexTthink1/Public/Static/skin/layer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:04:40+08:00 ] ::1 /nexTthink1/Public/Static/skin/moon/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:06:50+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:06:50+08:00 ] ::1 /nexTthink1/Public/Static/skin/layer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:06:50+08:00 ] ::1 /nexTthink1/Public/Static/skin/moon/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:06:52+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:06:53+08:00 ] ::1 /nexTthink1/Public/Static/skin/layer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:06:53+08:00 ] ::1 /nexTthink1/Public/Static/skin/moon/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:06:53+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:06:53+08:00 ] ::1 /nexTthink1/Public/Static/skin/layer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:06:53+08:00 ] ::1 /nexTthink1/Public/Static/skin/moon/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:06:55+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:06:56+08:00 ] ::1 /nexTthink1/Public/Static/skin/moon/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:06:56+08:00 ] ::1 /nexTthink1/Public/Static/skin/layer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-02T20:07:25+08:00 ] ::1 /nexTthink1/index.php?g=Admin&m=Config&a=index&g=admin&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+NOTIC: D方法实例化没找到模型类Common\Model\ConfigModel
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `think_config` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_config` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type`,`title`,`group`,`extra`,`remark`,`create_time`,`update_time`,`status`,`value`,`sort` FROM `think_config` WHERE `status` = 1 ORDER BY sort DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: keywords D:\phpStudy\WWW\nexTthink1\Application\Runtime\Cache\Admin\9bb5e7ead1bbec7c3d970a481af28a6e.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-02T20:07:25+08:00 ] ::1 /nexTthink1/Public/Static/skin/moon/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-11-02T20:07:25+08:00 ] ::1 /nexTthink1/Public/Static/skin/layer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+

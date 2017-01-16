@@ -1,0 +1,30 @@
+<div class="well well-warning">
+    <h2>{$addons_config.title}</h2>
+    <p>
+        <b>版本:</b>
+        1.1
+        &nbsp;&nbsp;&nbsp;
+        <notempty name="addons_config.new_version">
+            <a href="http://www.onethink.cn" target="_blank">发现新版本[{$addons_config.new_version}]</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="{:U('/update/index')}" target="_blank">在线更新</a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="{:addons_url('DevTeam://DevTeam/detail?id=1')}">Jump测试</a>
+        </notempty>
+    </p>
+    
+    <p><b>服务器操作系统:</b>{$Think.const.PHP_OS}</p>
+    
+    <p><b>ThinkPHP版本:</b>{$Think.VERSION}</p>
+    
+    <p><b>运行环境:</b>{$_SERVER['SERVER_SOFTWARE']}</p>
+    
+    <p>
+        <b>MYSQL版本:</b>
+        <php>$system_info_mysql = M()->query("select version() as v;");</php>
+        {$system_info_mysql.0.v}
+    </p>
+    
+    <p>
+        <b>上传限制:{:ini_get('upload_max_filesize')}</b>
+    </p>

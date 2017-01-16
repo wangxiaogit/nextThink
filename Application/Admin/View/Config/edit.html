@@ -1,0 +1,90 @@
+<include file = "Public/header" />
+</head>
+<body>
+    <div class="wrap">
+        <ul class="nav nav-tabs">
+            <li><a href="{:U('Config/index')}">{:L('WEBSITE_CONFIG_MANAGE')}</a></li>
+            <li><a href="{:U('Config/add')}">{:L('WEBSITE_CONFIG_ADD')}</a></li>
+            <li class="active"><a href="{:U('Config/edit',array(id=>$config['id']))}">{:L('WEBSITE_CONFIG_EDIT')}</a></li>
+        </ul>
+        
+        <form method="post" class="form-horizontal js-ajax-form" action="{:U('Config/do_edit')}">
+            <fieldset>
+                <div class="control-group">
+                    <label class="control-label"><span class="form-required">*</span> {:L('NAME')}</label>
+                    <div class="controls">
+                        <input type="text" name="name" value="{$config.name}">
+                        <span class="help-block"><small>用于C函数调用，只能使用英文且不能重复</small></span>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label"><span class="form-required">*</span> {:L('TITLE')}</label>
+                    <div class="controls">
+                        <input type="text" name="title" value="{$config.title}">
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">{:L('TYPE')}</label>
+                    <div class="controls">
+                        <select name="type">
+                        <foreach name="Think.config.CONFIG_TYPE_LIST" item="type">
+                            <php>$type_selected=$key==$config['type']?"selected":"";</php>
+                            <option value="{$key}" {$type_selected}>{$type}</option>
+                        </foreach>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">{:L('GROUP')}</label>
+                    <div class="controls">
+                        <select name="group">
+                            <option value="0">不分组</option>
+                            <foreach name="Think.config.CONFIG_GROUP_LIST" item="group">
+                                <php>$group_selected=$key==$config['group']?"selected":"";</php>
+                                <option value="{$key}" {$group_selected}>{$group}</option>
+                            </foreach>
+                        </select>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">{:L('VALUE')}</label>
+                    <div class="controls">
+                        <textarea name="value">{$config.value}</textarea>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">{:L('EXTRA')}</label>
+                    <div class="controls">
+                        <textarea name="extra">{$config.extra}</textarea>
+                        <span class="help-block"><small>如果是枚举型 需要配置该项</small></span>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">{:L('REMARK')}</label>
+                    <div class="controls">
+                        <textarea name="remark">{$config.remark}</textarea>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label class="control-label">{:L('SORT')}</label>
+                    <div class="controls">
+                        <input type="text" name="sort" value="{$config.sort}">
+                    </div>
+                </div>    
+            </fieldset>
+            <div class="form-actions">
+                <input type="hidden" name="id" value="{$config.id|default=0}">
+                <button type="submit" class="btn btn-primary js-ajax-submit">{:L('EDIT')}</button>
+                <a class="btn" href="{:U('Config/index')}">{:L('BACK')}</a>
+            </div>
+        </form>   
+    <div>
+<script src="__STATIC__/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<include file="Public/header" />
+</head>
+<body>
+    <div class="wrap">
+        <ul class="nav nav-tabs">
+            <li><a href="{:U('Route/index')}">{:L('ADMIN_ROUTE_MANAGE')}</a></li>
+            <li class="active"><a href="{:U('Route/add')}">{:L('ADMIN_ROUTE_ADD')}</a></li>
+        </ul>
+        <form method="post" class="form-horizontal js-ajax-form" action="{:U('Route/do_add')}">
+            <fieldset>
+                <div class="control-group">
+                    <label class="control-label"><span class="form-required">*</span> {:L('FULL_URL')}</label>
+                    <div class="controls">
+                        <input type="text" name="full_url">
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label"><span class="form-required">*</span> {:L('URL')}</label>
+                    <div class="controls">
+                        <input type="text" name="url">
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">{:L('STATUS')}</label>
+                    <div class="controls">
+                        <select name="status">
+                            <option value="1">{:L('DISABLED')}</option>
+                            <option value="0">{:L('ENABLED')}</option>
+                        </select>
+                    </div>
+                </div>
+            </fieldset>
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary js-ajax-submit">{:L('ADD')}</button>
+                <a class="btn" href="{:U('Route/index')}">{:L('BACK')}</a>
+            </div>
+        </form>
+    </div>
+<script src="__STATIC__/common.js"></script>
+<body>
+</html>    

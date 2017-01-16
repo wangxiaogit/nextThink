@@ -1,0 +1,39 @@
+<include file="Public/header" />
+</head>
+<body>
+    <div class="wrap">
+        <ul class="nav nav-tabs">
+            <li><a href="{:U('Rbac/index')}">{:L('ADMIN_ROLE_MANAGE')}</a></li>
+            <li class="active"><a href="{:U('rbac/roleadd')}">{:L('ROLE_ADD')}</a></li>
+        </ul>
+        <form class="form-horizontal js-ajax-form" action="{:U('Rbac/do_add')}" method="post">
+            <fieldset>
+                <div class="control-group">
+                    <label class="control-label"><span class="form-required">*</span> {:L('NAME')}</label>
+                    <div class="controls">
+                            <input type="text" name="name" value="" id="rolename"/>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label">{:L('REMARK')}</label>
+                    <div class="controls">
+                            <textarea name="remark" rows="3" cols="20" id="remark" style="height: 100px; width: 500px;"></textarea>
+                    </div>
+                </div>
+                    <div class="control-group">
+                        <label class="control-label">{:L('STATUS')}</label>
+                        <div class="controls">
+                            <label class="radio inline" for="active_true"><input type="radio" name="status" value="1" checked id="active_true" />{:L('ENABLED')}</label>
+                            <label class="radio inline" for="active_false"><input type="radio" name="status" value="0" id="active_false">{:L('DISABLED')}</label>
+                        </div>
+                    </div>
+            </fieldset>
+            <div class="form-actions">
+                    <button type="submit" class="btn btn-primary js-ajax-submit">{:L('ADD')}</button>
+                    <a class="btn" href="{:U('rbac/index')}">{:L('BACK')}</a>
+            </div>
+        </form>
+    </div>
+<script src="__STATIC__/common.js"></script>
+</body>
+</html>
