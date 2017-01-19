@@ -21,14 +21,13 @@ class AddonsController extends AdminController
      */
     public function index() 
     {
-        /*$list       =   $this->addonsModel->getList();
-        
+        $list       =   $this->addonsModel->getList();
+            
         $addons     =   $this->array_lists($list);
         
         $this->assign('meta_title', L('ADMIN_ADDONS_MANAGE'));
-        $this->assign('addons', $addons); */ 
-        $this->display();  
-        
+        $this->assign('addons', $addons);  
+        $this->display();
     }
     
 }

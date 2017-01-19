@@ -116,3 +116,39 @@ function Api($name,$vars=array()){
     }
     return call_user_func_array($callback,$vars);
 }
+
+/**
+ * 获取所有方法名
+ * 
+ * @param string $url
+ * @return array
+ */
+function get_action($url) {
+    if (empty($url)) {
+        return null;
+    }
+    //获取全部方法，包括被继承的方法
+    $functions = get_class_methods($url);
+    //排除部分方法
+    $inherents_functions = array(
+        '_initialize', '__construct', 'isAjax', 'display', 'show', 'fetch', 'buildHtml', 'assign', '__set', 'get',
+        '__get', '__isset', '__call', 'error', 'success', 'ajaxReturn', 'redirect', '__destruct', '_empty', 'install',
+        'uninstall', 'execute'
+    );
+    //排除以指定前缀开头的方法
+    $pre_inherents_functions = array('_before_', '_after_');
+    foreach ($functions as $func) {
+        $func = trim($func);
+        foreach ($pre_inherents_functions as $pre) {
+            if (stripos($func, $pre) === 0) {
+                continue 2;
+            }
+        }
+        if (in_array($func, $inherents_functions)) {
+            continue;
+        }
+        $customer_functions[] = $func;
+    }
+    
+    return $customer_functions;
+}

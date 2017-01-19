@@ -2,7 +2,8 @@
 
 return array(
     'ADMIN_ADDONS_MANAGE' => '插件管理',
-    'TTTLE' => '名称',
+    'TTTLE' => '标识',
+    'TEXT_DOMAIN'=> '名称',
     'NAME' => '标识',
     'HOOKS' => '钩子',
     'DESCRIPTION' => '描述',

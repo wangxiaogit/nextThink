@@ -161,5 +161,6 @@ class UserController extends AdminController
     	} else {
             $this->error('参数不能为空！');
     	}
-    }        
+    }
+    
 }

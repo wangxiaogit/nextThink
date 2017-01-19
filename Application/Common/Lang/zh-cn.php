@@ -21,6 +21,7 @@ return array (
     "NO" => '否',
     "EDIT" => '编辑',
     "ADD" => '添加',
+    "VIEW" => '查看',
     "BACK" => '返回',
     'CLEAR' => '清空',
     'LOGIN'=>'登录',

@@ -51,7 +51,9 @@ class iAuth{
         	return false;
         }
         
-        $rules = $this->authAccessModel->alias("a")->where(array("role_id"=>array("in",$roles),"rule_name"=>array("in",$name)))->select();
+        $rules = $this->authAccessModel->alias("a")
+                 ->where(array("role_id"=>array("in",$roles),"rule_name"=>array("in",$name)))
+                 ->select();
         
         return empty($rules) ? false : true;
     }

@@ -1,9 +1,8 @@
 <include file="Public/header" />
 </head>
 <body>
-    {:hook('AdminIndex')}
-<!--    <div class="wrap js-check-wrap">
-        <ul>
+    <div class="wrap js-check-wrap">
+        <ul class="nav nav-tabs">
             <li class="active"><a href="{:U('Config/index')}">{:L('ADMIN_ADDONS_MANAGE')}</a></li>
         </ul>
         <form method="post" class="js-ajax-form">
@@ -13,13 +12,12 @@
             <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
-                        <th>{:L('NAME')}</th>
-                        <th>{:L('TEXT_DOMAIN')}</th>
-                        <th>{:L('HOOKS')}</th>
+                        <th width="120">{:L('TEXT_DOMAIN')}</th>
+                        <th width="150">{:L('NAME')}</th>
+                        <th width="150">{:L('HOOKS')}</th>
                         <th>{:L('DESCRIPTION')}</th>
-                        <th>{:L('AUTHOR')}</th>
-                        <th width="45">{:L('STATUS')}</th>
-                        <th width="150">{:L('ACTIONS')}</th>
+                        <th width="100">{:L('AUTHOR')}</th>
+                        <th width="60">{:L('STATUS')}</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -31,39 +29,11 @@
                             <td>{$vo.description}</td>
                             <td>{$vo.author}</td>
                             <td>{$status[$vo['status']]}</td>
-                            <td>
-                                <if condition="$vo['status']==3">
-                                    <a href="{:U('Addons/install',array('name'=>$vo['name']))}" class="js-ajax-dialog-btn" data-msg="确定安装该插件吗？">{:L('INSTALL')}</a>
-                                <else />
-                                    <php>$config=json_decode($vo['config'],true);</php>
-                                    <if condition="!empty($config)">
-                                            <a href="{:U('Addons/setting',array('id'=>$vo['id']))}">{:L('SETTING')}</a>|
-                                    <else/>
-                                            <a href="javascript:;" style="color: #ccc;">{:L('SETTING')}</a>|
-                                    </if>
-
-                                    <if condition="!empty($vo['has_admin'])">
-                                            <a href="javascript:parent.openapp('{:sp_plugin_url($vo['name'].'://AdminIndex/index')}','plugin_{$vo.name}','{$vo.title}')">{:L('MANAGE')}</a>|
-                                    <else/>
-                                            <a href="javascript:;" style="color: #ccc;">{:L('MANAGE')}</a>| 
-                                    </if>
-
-                                    <a href="{:U('Addons/update',array('name'=>$vo['name']))}" class="js-ajax-dialog-btn" data-msg="确定更新该插件吗？">{:L('UPDATE')}</a>| 
-
-                                    <if condition="$vo['status']==0">
-                                            <a href="{:U('Addons/toggle',array('id'=>$vo['id'],'enable'=>1))}" class="js-ajax-dialog-btn" data-msg="确定启用该插件吗？">{:L('ENABLE')}</a>| 
-                                    <else/>
-                                            <a href="{:U('Addons/toggle',array('id'=>$vo['id'],'disable'=>1))}" class="js-ajax-dialog-btn" data-msg="确定禁用该插件吗？">{:L('DISABLED')}</a>|
-                                    </if>
-
-                                    <a href="{:U('Addons/uninstall',array('id'=>$vo['id']))}" class="js-ajax-dialog-btn" data-msg="确定卸载该插件吗？">{:L('DISINSTALLED')}</a>
-                                </if>
-                            </td>
                         </tr>
                     </foreach>
                 </tbody>
             </table>
         </form>    
-    </div>-->
+    </div>
 </body>
 </html>

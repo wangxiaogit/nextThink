@@ -37,10 +37,14 @@ class AddonsModel extends CommonModel
                 
                 $obj = new $class;
 		$addons[$value]	= $obj->info;
+                
 		if(!isset($obj->info['type']) || $obj->info['type']==1){//只获取普通插件，微信插件在微信中使用
-                    if($addons[$value]){
-                        $addons[$value]['status']=3;//未安装
-                    }
+                    $addons[$value]['status'] = 3;//未安装
+                    
+                    //hook
+                    $url = '\\Addons\\'.$value.'\\' .$value. 'Addon';
+                    
+                    $addons[$value]['hooks'] = $hooks ? '': implode(',', get_action($url)); 
                 }else{
                     unset($addons[$value]);
                 }
