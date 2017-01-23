@@ -4,7 +4,7 @@
  * @return int
  */
 function get_current_admin_id(){
-    return $_SESSION['ADMIN_ID'];
+    return session('ADMININFO.ID');
 }
 
 /**
@@ -96,6 +96,30 @@ function sp_auth_check($uid, $name=null, $relation='or'){
 function sp_scan_dir($pattern,$flags=null){
     $files = array_map('basename',glob($pattern, $flags));
     return $files;
+}
+
+/**
+ * 密码加密方法
+ * @param string $pw 要加密的字符串
+ * @return string
+ */
+function sp_password($pw,$authcode=''){
+    if(empty($authcode)){
+        $authcode=C("AUTHCODE");
+    }
+    $result="###".md5(md5($authcode.$pw));
+    return $result;
+}
+
+/**
+ * 检测验证码
+ * 
+ * @param  integer $id 验证码ID
+ * @return boolean     检测结果
+ */
+function check_verify($code, $id = 1){
+    $verify = new \Think\Verify();
+    return $verify->check($code, $id);
 }
 
 /**

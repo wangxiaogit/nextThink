@@ -37,9 +37,8 @@
 
 </head>
 <body>
-    <?php echo hook('AdminIndex');?>
-<!--    <div class="wrap js-check-wrap">
-        <ul>
+    <div class="wrap js-check-wrap">
+        <ul class="nav nav-tabs">
             <li class="active"><a href="<?php echo U('Config/index');?>"><?php echo L('ADMIN_ADDONS_MANAGE');?></a></li>
         </ul>
         <form method="post" class="js-ajax-form">
@@ -47,13 +46,12 @@
             <table class="table table-hover table-bordered">
                 <thead>
                     <tr>
-                        <th><?php echo L('NAME');?></th>
-                        <th><?php echo L('TEXT_DOMAIN');?></th>
-                        <th><?php echo L('HOOKS');?></th>
+                        <th width="120"><?php echo L('TEXT_DOMAIN');?></th>
+                        <th width="150"><?php echo L('NAME');?></th>
+                        <th width="150"><?php echo L('HOOKS');?></th>
                         <th><?php echo L('DESCRIPTION');?></th>
-                        <th><?php echo L('AUTHOR');?></th>
-                        <th width="45"><?php echo L('STATUS');?></th>
-                        <th width="150"><?php echo L('ACTIONS');?></th>
+                        <th width="100"><?php echo L('AUTHOR');?></th>
+                        <th width="60"><?php echo L('STATUS');?></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -64,30 +62,10 @@
                             <td><?php echo ($vo["description"]); ?></td>
                             <td><?php echo ($vo["author"]); ?></td>
                             <td><?php echo ($status[$vo['status']]); ?></td>
-                            <td>
-                                <?php if($vo['status']==3): ?><a href="<?php echo U('Addons/install',array('name'=>$vo['name']));?>" class="js-ajax-dialog-btn" data-msg="确定安装该插件吗？"><?php echo L('INSTALL');?></a>
-                                <?php else: ?>
-                                    <?php $config=json_decode($vo['config'],true); ?>
-                                    <?php if(!empty($config)): ?><a href="<?php echo U('Addons/setting',array('id'=>$vo['id']));?>"><?php echo L('SETTING');?></a>|
-                                    <?php else: ?>
-                                            <a href="javascript:;" style="color: #ccc;"><?php echo L('SETTING');?></a>|<?php endif; ?>
-
-                                    <?php if(!empty($vo['has_admin'])): ?><a href="javascript:parent.openapp('<?php echo sp_plugin_url($vo['name'].'://AdminIndex/index');?>','plugin_<?php echo ($vo["name"]); ?>','<?php echo ($vo["title"]); ?>')"><?php echo L('MANAGE');?></a>|
-                                    <?php else: ?>
-                                            <a href="javascript:;" style="color: #ccc;"><?php echo L('MANAGE');?></a>|<?php endif; ?>
-
-                                    <a href="<?php echo U('Addons/update',array('name'=>$vo['name']));?>" class="js-ajax-dialog-btn" data-msg="确定更新该插件吗？"><?php echo L('UPDATE');?></a>| 
-
-                                    <?php if($vo['status']==0): ?><a href="<?php echo U('Addons/toggle',array('id'=>$vo['id'],'enable'=>1));?>" class="js-ajax-dialog-btn" data-msg="确定启用该插件吗？"><?php echo L('ENABLE');?></a>| 
-                                    <?php else: ?>
-                                            <a href="<?php echo U('Addons/toggle',array('id'=>$vo['id'],'disable'=>1));?>" class="js-ajax-dialog-btn" data-msg="确定禁用该插件吗？"><?php echo L('DISABLED');?></a>|<?php endif; ?>
-
-                                    <a href="<?php echo U('Addons/uninstall',array('id'=>$vo['id']));?>" class="js-ajax-dialog-btn" data-msg="确定卸载该插件吗？"><?php echo L('DISINSTALLED');?></a><?php endif; ?>
-                            </td>
                         </tr><?php endforeach; endif; ?>
                 </tbody>
             </table>
         </form>    
-    </div>-->
+    </div>
 </body>
 </html>

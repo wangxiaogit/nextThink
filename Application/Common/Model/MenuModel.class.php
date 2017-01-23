@@ -80,7 +80,6 @@ class MenuModel extends CommonModel
         return $data;
     }
     
-    
     /** 
      * 树形菜单集合
      */

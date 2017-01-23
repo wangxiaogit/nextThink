@@ -15,7 +15,7 @@
 <link rel="stylesheet" href="/nexTthink1/Public/Static/bootstrap/css/bootstrap.min.css">
 <link rel="stylesheet" href="/nexTthink1/Public/Admin/theme/simpleboot/simpleboot.css">
 <link rel="stylesheet" href="/nexTthink1/Public/Static/font-awesome/4.4.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="/nexTthink1/Public/Admin/css/default/default.css">
+<link rel="stylesheet" href="/nexTthink1/Public/Admin/css/default.css">
 
 <style>
 /*-----------------导航hack--------------------*/
@@ -114,6 +114,7 @@
     <div id="right_tools_wrapper">
         <span id="refresh_wrapper" title="<?php echo L('REFRESH_CURRENT_PAGE');?>" ><i class="fa fa-refresh right_tool_icon"></i></span>
     </div>
+    
     <div class="navbar">
         <div class="navbar-inner">
             <div class="container-fluid">
@@ -124,6 +125,16 @@
                     </small>
                 </a>
                 
+                <div class="pull-left nav_shortcuts" >		
+                        <a class="btn btn-small btn-warning" href="/nexTthink1/" title="<?php echo L('WEBSITE_HOME_PAGE');?>" target="_blank">
+                                <i class="fa fa-home"></i>
+                        </a>
+
+                        <?php if(sp_auth_check(get_current_admin_id(),'portal/AdminTerm/index')): ?><a class="btn btn-small btn-success" href="javascript:openapp('<?php echo U('portal/AdminTerm/index');?>','index_termlist','<?php echo L('PORTAL_ADMINTERM_INDEX');?>');" title="<?php echo L('PORTAL_ADMINTERM_INDEX');?>">
+                                <i class="fa fa-th"></i>
+                            </a><?php endif; ?>
+                </div>
+                
                 <ul class="nav simplewind-nav pull-right">
                     <li class="light-blue">
                         <a data-toggle="dropdown" href="#" class="dropdown-toggle">
@@ -131,14 +142,14 @@
                             <?php else: ?>
                                     <img class="nav-user-photo" width="30" height="30" src="/nexTthink1/Public/Admin/img/logo-18.png" alt="<?php echo ($admin["user_login"]); ?>"><?php endif; ?>
                             <span class="user-info">
-                                    <?php echo L('WELCOME_USER',array('username'=>empty($admin['user_nicename'])?$admin['user_login']:$admin['user_nicename']));?>
+                                <?php echo L('WELCOME_USER',array('username'=>empty($admin['user_nicename'])?$admin['user_login']:$admin['user_nicename']));?>
                             </span>
                             <i class="fa fa-caret-down"></i>
                         </a>
                         <ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-closer">
-<!--                            <?php if(sp_auth_check(get_current_admin_id(),'admin/setting/site')): ?><li><a href="javascript:openapp('<?php echo U('setting/site');?>','index_site','<?php echo L('ADMIN_SETTING_SITE');?>');"><i class="fa fa-cog"></i> <?php echo L('ADMIN_SETTING_SITE');?></a></li><?php endif; ?>
-                            <?php if(sp_auth_check(get_current_admin_id(),'admin/user/userinfo')): ?><li><a href="javascript:openapp('<?php echo U('user/userinfo');?>','index_userinfo','<?php echo L('ADMIN_USER_USERINFO');?>');"><i class="fa fa-user"></i> <?php echo L('ADMIN_USER_USERINFO');?></a></li><?php endif; ?>-->
-                            <li><a href="<?php echo U('Public/loginout');?>"><i class="fa fa-sign-out"></i> <?php echo L('LOGOUT');?></a></li>
+                            <?php if(sp_auth_check(get_current_admin_id(),'admin/user/userinfo')): ?><li><a href="javascript:openapp('<?php echo U('user/info');?>','index_userinfo','<?php echo L('ADMINISTRATOR_CENTER');?>');"><i class="fa fa-user"></i> <?php echo L('ADMINISTRATOR_CENTER');?></a></li><?php endif; ?>
+                            <?php if(sp_auth_check(get_current_admin_id(),'admin/password/reset')): ?><li><a href="javascript:openapp('<?php echo U('Password/reset');?>','index_userinfo','<?php echo L('PASSWORD_RESET');?>');"><i class="fa fa-user"></i> <?php echo L('PASSWORD_RESET');?></a></li><?php endif; ?>
+                            <li><a href="<?php echo U('Login/out');?>"><i class="fa fa-sign-out"></i> <?php echo L('LOGOUT');?></a></li>
                         </ul>
                     </li>
                 </ul>

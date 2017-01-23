@@ -275,7 +275,8 @@ a.macro-component-tabclose:hover{
     border-left:0 solid #ccd7e2
 }
 .nav_shortcuts{
-    margin-top:5px
+    margin-top:5px;
+    margin-left:10px;
 }
 #sidebar-shortcuts{
     height:41px

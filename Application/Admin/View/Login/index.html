@@ -1,0 +1,108 @@
+    <!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>ThinkCMF {:L('ADMIN_CENTER')}</title>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
+    <meta name="renderer" content="webkit|ie-comp|ie-stand" />
+    <meta name="robots" content="noindex,nofollow">
+
+    <link href="__CSS__/login.css" rel="stylesheet" />
+    
+    <style>
+        #login_btn_wraper{
+            text-align: center;
+        }
+        #login_btn_wraper .tips_success{
+            color:#fff;
+        }
+        #login_btn_wraper .tips_error{
+            color:#DFC05D;
+        }
+        #login_btn_wraper button:focus{
+            outline:none;
+        }
+    </style>
+    
+    <script>
+        //判断是否同一框架
+        if (window.parent != window.self) {
+            window.parent.location.href = window.self.location.href;
+            setTimeout(function() {
+                document.body.innerHTML = '';
+            }, 0);
+        }
+    </script>
+</head>
+<body>
+    <div class="wrap">
+        <h1><a href="__ROOT__">{:L('ADMIN_CENTER')}</a></h1>
+        <form method="post" name="login" action="{:U('Login/do_login')}" autoComplete="off" class="js-ajax-form">
+            <div class="login">
+                <ul>
+                    <li>
+                        <input type="text" name="username" class="input" id="admin-name" placeholder="{:L('USERNAME_OR_EMAIL')}" value="{$_COOKIE['ADMIN_USERNAME']}" required />
+                    </li>
+                    <li>
+                        <input type="password" name="password" class="input" id="admin_pwd" placeholder="{:L('PASSWORD')}" required />
+                    </li>
+                    <li class="verifycode-wrapper">
+                        <img class="verify_img" src="{:U('Login/verify')}" style="cursor: pointer;" title="点击切换"/>
+                    </li>
+                    <li>
+                        <input class="input" type="text" name="verify" placeholder="{:L('ENTER_VERIFY_CODE')}" />
+                    </li>
+                </ul>
+                <div id="login_btn_wraper">
+                    <button type="submit" name="submit" class="btn js-ajax-submit" >{:L('LOGIN')}</button>
+                </div>
+            </div>    
+        </form>
+    </div>   
+<script src="__STATIC__/jquery.js"></script>
+<script>
+    //匿名函数 并调用
+    (function(){
+        document.getElementById('admin-name').focus();
+        
+        //验证码刷新
+        var verify_img = $(".verify_img").attr("src");
+        $(".verify_img").click(function(){
+            if( verify_img.indexOf('?')>0){
+                $(".verify_img").attr("src", verify_img+'&random='+Math.random());
+            }else{
+                $(".verify_img").attr("src", verify_img.replace(/\?.*$/,'')+'?'+Math.random());
+            }
+        });
+        
+        $(document).ajaxStart(function(){
+                    $("button.js-ajax-submit").text("登陆中...").attr("disabled", true);
+                    
+                    var $tips_error = $('.tips_error');
+                    if ($tips_error.length) $tips_error.remove();
+	    	})
+	    	.ajaxStop(function(){
+                    $("button.js-ajax-submit").text("登陆").attr("disabled", false);
+	    	});
+        
+    	$("form").submit(function(){
+    		var self = $(this),btn = $('.js-ajax-submit');
+    		$.post(self.attr("action"), self.serialize(), success, "json");
+    		return false;
+
+    		function success(data){
+                    if(data.status){
+                        window.location.href = data.url;
+                    } else {
+                        $('<span class="tips_error">' + data.info + '</span>').appendTo(btn.parent()).fadeIn('fast');
+                            btn.removeProp('disabled').removeClass('disabled');
+                        //刷新验证码
+                        $(".verify_img").click();
+                    }
+    		}
+    	});
+        
+    })();
+</script>
+</body>
+</html>

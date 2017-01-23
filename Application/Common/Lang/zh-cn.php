@@ -36,6 +36,7 @@ return array (
     'ENTER_KEYWORD' => '请输入关键字...',
     'USERNAME_OR_EMAIL'=>'用户名或邮箱',
     'LOGIN_SUCCESS' => "登录成功！",
+    'PASSWORD_RESET' => '修改密码',
     'PASSWORD_NOT_RIGHT' => "密码错误！",
     'PASSWORD_REQUIRED' => "密码不能为空！",
     'CAPTCHA_REQUIRED' => "验证码不能为空！",
@@ -60,6 +61,7 @@ return array (
     "OPEN_FAILED" => '启用失败！',
     "SAVE_SUCCESS" => '保存成功！',
     "SAVE_FAILED" => '保存失败！',
+    'PARAMETERS_ERROR' =>  '参数错误！'
 );
 
 

@@ -1,0 +1,60 @@
+<include file="Public/header" />
+</head>
+<body>
+    <div class="wrap">
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="{:U('Password/reset')}">{:L('PASSWORD_RESET')}</a></li>
+        </ul>
+        
+        <form method="post" class="form-horizontal js-ajax-form" action="{:U('Password/do_reset')}">
+            <fieldset>
+                <div class="control-group">
+                    <label class="control-label"><span class="form-required">*</span> {:L('OLD_PASSWORD')}</label>
+                    <div class="controls">
+                        <input type="password" name="old_password">
+                    </div>
+                </div>
+                
+                <div class="control-group">
+                    <label class="control-label"><span class="form-required">*</span> {:L('NEW_PASSWORD')}</label>
+                    <div class="controls">
+                        <input type="password" name="new_password">
+                    </div>
+                </div>
+                
+                <div class="control-group">
+                    <label class="control-label"><span class="form-required">*</span> {:L('CONFIRM_NEW_PASSWORD')}</label>
+                    <div class="controls">
+                        <input type="password" name="confirm_password">
+                    </div>
+                </div>
+                
+                <div class="control-group">
+                    <label class="control-label"><span class="form-required">*</span> {:L('VERIFY_CODE')}</label>
+                    <div class="controls">
+                        <input type="text" name="verify" style="width:80px;">
+                        <img class="verify_img" src="{:U('Password/verify')}" style="cursor: pointer; margin-left: 5px;" title="点击切换"/>
+                    </div>
+                </div>
+            </fieldset>  
+            <div class="form-actions">
+                <button type="submit" class="btn btn-primary js-ajax-submit">{:L('EDIT')}</button>
+            </div>
+        </form>    
+    </div> 
+    <script src="__STATIC__/common.js"></script>
+    <script>
+        ;(function() {
+            //验证码刷新
+            var verify_img = $(".verify_img").attr("src");
+            $(".verify_img").click(function(){
+                if( verify_img.indexOf('?')>0){
+                    $(".verify_img").attr("src", verify_img+'&random='+Math.random());
+                }else{
+                    $(".verify_img").attr("src", verify_img.replace(/\?.*$/,'')+'?'+Math.random());
+                }
+            });
+        })();
+    </script>
+</body>
+</html>

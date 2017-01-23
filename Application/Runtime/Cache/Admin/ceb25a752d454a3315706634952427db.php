@@ -37,6 +37,6 @@
 
 </head>
 <body>
-    <div class="wrap"><?php echo L('WELCOME_BACK');?></div>
+    <div class="wrap"><?php echo hook('AdminIndex');?></div>
 </body>
 </html>

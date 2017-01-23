@@ -28,7 +28,7 @@ class ConfigController extends AdminController{
        }
        
        $this->assign('groupId', $groupId); 
-       
+       $this->assign('meta_title', L('WEBSITE_CONFIG_INFO'));
        $this->display();
     }
     
@@ -88,10 +88,6 @@ class ConfigController extends AdminController{
     {
         $config = $this->configModel->find($id);
 
-        if (false === $config) {
-            $this->error("获取配置信息错误");
-        }
-
         $this->assign('config', $config);
         $this->assign('meta_title', L('WEBSITE_CONFIG_EDIT'));
         $this->display();    
@@ -124,7 +120,7 @@ class ConfigController extends AdminController{
         $id = I("get.id",0,"intval");
         
         if ( empty($id) ) {
-            $this->error('请选择要操作的数据!');
+            $this->error(L('PARAMETERS_ERROR'));
         }
         
         if ($this->configModel->delete($id)!==false) {

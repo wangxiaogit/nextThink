@@ -694,7 +694,8 @@ Wind.ready(function() {
                     //treeview          : 'treeview',
                     treeTable         : 'treeTable/treeTable',
                     //draggable         : 'draggable',
-                    //validate          : 'validate',
+                    validate          : 'jquery.validate/jquery.validate',
+                    'validate-extends' : 'jquery.validate/additional-methods',
                     //artDialog         : 'artDialog/artDialog',
                     //iframeTools       : 'artDialog/iframeTools',
                     //xd                : 'xd',//Iframe跨域通信
@@ -712,7 +713,8 @@ Wind.ready(function() {
 //                    colorPicker : 'colorPicker/style',
 //                    artDialog   : 'artDialog/skins/default',
 //                    datePicker	: 'datePicker/style',
-                    treeTable   : 'treeTable/treeTable'
+                    treeTable   : 'treeTable/treeTable',
+                    layer             : 'layer/skin/layer' 
 //                    jcrop       : 'jcrop/css/jquery.Jcrop.min'
 		};
 

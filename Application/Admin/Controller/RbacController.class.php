@@ -64,7 +64,7 @@ class RbacController extends AdminController
         $role = $this->roleModel->find($id);
         
         if (false === $role) {
-            $this->error("获取配置信息错误");
+            $this->error(L('PARAMETERS_ERROR'));
         }
         
         $this->assign('role', $role);
@@ -143,6 +143,7 @@ class RbacController extends AdminController
         $Tree->init($result);
         $categorys = $Tree->get_tree(0, $str);
         
+        $this->assign('meta_title', L('AUTHORITY_SETTING'));
         $this->assign("categorys", $categorys);
         $this->assign("roleid", $roleId);
         $this->display();

@@ -132,17 +132,15 @@ class UserController extends AdminController
      */
     public function ban()
     {
-        $id = I('get.id', 0, 'intval');
+        if (!I('id', 0)) {
+            $this->error(L('PARAMETERS_ERROR'));
+        }
         
-    	if ($id) {
-            if ( $this->userModel->where(array("id" => $id,"user_type"=>1))->setField('user_status', 0)) {
-                $this->success(L('BAN_SUCCESS'), U("User/index"));
-            } else {
-                $this->error(L('BAN_FAILED'));
-            }
-    	} else {
-            $this->error('参数不能为空！');
-    	}
+        if (parent::editRow($this->userModel, array('user_status'=> 0), array('user_type'=> 1))) {
+            $this->success(L('BAN_SUCCESS'), U("User/index"));
+        } else {
+            $this->error(L('BAN_FAILED'));
+        }    
     }
     
     /**
@@ -150,17 +148,15 @@ class UserController extends AdminController
      */
     public function open()
     {
-        $id = I('get.id', 0, 'intval');
+        if (!I('id', 0)) {
+            $this->error(L('PARAMETERS_ERROR'));
+        }
         
-    	if ($id) {
-            if ($this->userModel->where(array("id" =>$id,"user_type" =>1))->setField('user_status', 1)) {
-                $this->success(L('OPEN_SUCCESS'), U("User/index"));
-            } else {
-                $this->error(L('BAN_FAILED'));
-            }
-    	} else {
-            $this->error('参数不能为空！');
-    	}
+        if (parent::editRow($this->userModel, array('user_status'=> 1), array('user_type'=> 1))) {
+            $this->success(L('OPEN_SUCCESS'), U("User/index"));
+        } else {
+            $this->error(L('OPEN_FAILED'));
+        }
     }
     
 }

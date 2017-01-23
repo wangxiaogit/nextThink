@@ -50,7 +50,9 @@ class MenuController extends AdminController
                     <td>\$str_manage</td>
 		</tr>";
         $categorys = $Tree->get_tree(0, $str);
+        
         $this->assign("categorys", $categorys);
+        $this->assign('meta_title', L('ADMIN_MENU_LIST'));
         $this->display();
     }
     
@@ -73,6 +75,7 @@ class MenuController extends AdminController
         $select_categorys = $Tree->get_tree(0, $str);
 
         $this->assign("select_categorys", $select_categorys);
+        $this->assign('meta_title', L('MENU_ADD'));
         $this->display();    
     }
     
@@ -117,6 +120,7 @@ class MenuController extends AdminController
 
         $this->assign("data", $data);
         $this->assign("select_categorys", $select_categorys);
+        $this->assign('meta_title', L('MENU_EDIT'));
         $this->display();     
     }
     
@@ -145,6 +149,7 @@ class MenuController extends AdminController
         if ($count > 0) {
             $this->error("该菜单下还有子菜单，无法删除！");
         }
+        
         if ($this->menuModel->delete($id)!==false) {
             $this->success(L('DEL_SUCCESS'));
         } else {

@@ -10,13 +10,13 @@ class AdminController extends AppController {
     
     public function __construct() 
     {
-        session('ADMIN_ID', 1);
         parent::__construct();
     }
     
     public function _initialize() {
         parent::_initialize();
-        $adminId = $_SESSION['ADMIN_ID'];
+        
+        $adminId = session('ADMININFO.ID');
         if (isset($adminId)) {
             //网站配置
             S('WEB_CONFIG_DATA', null);
@@ -40,9 +40,9 @@ class AdminController extends AppController {
                
         } else {
             if (IS_AJAX) {
-                $this->error("您还没有登录！",U("Admin/Public/login"));
+                $this->error("您还没有登录！",U("Login/index"));
             } else {
-                header("Location:".U("Admin/Public/login"));
+                header("Location:".U("Login/index"));
                 exit();
             }
         }
@@ -195,7 +195,8 @@ class AdminController extends AppController {
      * @param string $model 数据模型
      * @param string $sort_field  排序字段
      */
-    protected function _listorders($model, $sort_field) {
+    protected function _listorders($model, $sort_field) 
+    {
         if (!is_object($model)) {
             return false;
         }
@@ -215,11 +216,10 @@ class AdminController extends AppController {
      * @param string $model 模型名称,供M函数使用的参数
      * @param array  $data  修改的数据
      * @param array  $where 查询时的where()方法的参数
-     * @param array  $msg   执行正确和错误的消息 array('success'=>'','error'=>'', 'url'=>'','ajax'=>false)
-     *                     url为跳转页面,ajax是否ajax方式(数字则为倒数计时秒数)
      *
      */
-    final protected function editRow ( $model, $data, $where, $msg ){
+    final protected function editRow ( $model, $data, $where )
+    {
         $id    = array_unique((array)I('id',0));
         $id    = is_array($id) ? implode(',',$id) : $id;
         //如存在id字段，则加入该条件
@@ -228,25 +228,10 @@ class AdminController extends AppController {
             $where = array_merge( array('id' => array('in', $id )) ,(array)$where );
         }
 
-        $msg   = array_merge( array( 'success'=>'操作成功！', 'error'=>'操作失败！', 'url'=>'' ,'ajax'=>IS_AJAX) , (array)$msg );
         if( M($model)->where($where)->save($data)!==false ) {
-            $this->success($msg['success'],$msg['url'],$msg['ajax']);
+            return true;
         }else{
-            $this->error($msg['error'],$msg['url'],$msg['ajax']);
+            return false;
         }
-    }
-    
-    /**
-     * 假删除
-     * @param string $model 模型名称,供D函数使用的参数
-     * @param array  $where 查询时的where()方法的参数
-     * @param array  $msg   执行正确和错误的消息 array('success'=>'','error'=>'', 'url'=>'','ajax'=>false)
-     *                     url为跳转页面,ajax是否ajax方式(数字则为倒数计时秒数)
-     *
-     */
-    protected function delete ( $model , $where = array() , $msg = array( 'success'=>'删除成功！', 'error'=>'删除失败！')) {
-        $data['status']         =   0;
-        $this->editRow(   $model , $data, $where, $msg);
-    }
-           
+    }           
 }
